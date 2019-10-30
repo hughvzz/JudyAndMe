@@ -98,6 +98,14 @@ h1, h2, h3, h4, h5, h6, figure {
   display: flex;
 }
 
+.rotateimg180 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
 .countdown-wrap, .bg-cover {
   width: 50%;
   float: left;
@@ -119,6 +127,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-size: cover;
   background-position: center center;
   position: relative;
+  rotate: 90;
 }
 @media screen and (max-width: 768px) {
   .bg-cover {
